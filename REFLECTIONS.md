@@ -42,3 +42,27 @@ The real temperature of the city obviously would not change but its score would 
 Madrid ? Because it's often sunny and hot there ?
 
 ## Stage 5 — Visualization for decision support
+
+Page URL: https://eric-lefebvre.github.io/eu-capitals-dashboard/
+
+> **Reflection — was your prediction right?** Compare the real top-ranked capital
+> to what you predicted in Stage 3. If they match, what does that tell you about how
+> well you understood the 50/50 formula? If they don't match, what surprised you —
+> was it the weather data, the distance, or the formula itself?
+
+They don't match, I'm not surprised because I guessed blindly but at least Madrid is not far from the top.
+
+> **Reflection — monitoring (CM4):** GitHub automatically disables a scheduled
+> workflow after 60 days with no repository activity — a real, documented behavior,
+> not a bug. If this dashboard's schedule silently stopped running (or started
+> silently failing every week), what is the *one* thing on the live public page a
+> visitor could look at to notice something was wrong, without checking the Actions
+> tab? Is that signal good enough on its own, or would you add something?
+
+Data last updated gives that informations but its very small at the bottom of the page.
+I would add something more obvious to the user to notify if the information is up to date at the top of the page.
+
+## Stage 7 — On your own: change the flight origin
+
+J'ai modifié le fichier fetch_and_score.py pour que ce ne soit plus spécifiquement PARIS_LAT et PARIS_LON. J'ai modifié le titre de la page HTML. J'ai modifié la liste des capitales pour qu'Athènes n'y figure plus.
+Le meilleur choix est relatif au point de départ puisque 50% de la note dépend de l'émission en C02.
